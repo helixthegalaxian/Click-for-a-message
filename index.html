@@ -1,15 +1,26 @@
-
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta http-equiv="content-type" content="text/html; charset=utf-8" <title>
-        website o' html</title>
-        
-    </head>
-    <body>
-        <script type="text/javascript" charset="utf-8">
-            
-        </script>
-      <button onclick=confirm('hello are you actually seeing this??')>click me</button>
-    </body>
+<html dir="ltr" lang="fr" class="focus-outline-visible" lazy-loaded="true">
+<head></head>
+<body style="background-color: rgb(255, 255, 255);"> 
+<iframe id="none" src></iframe>
+<ntp-app></ntp-app> 
+<script type="module" src="none"></script>
+<link rel="stylesheet" href="chrome://resources/css/text_defaults_md.css">
+<link rel="stylesheet" href="shared vars.css"> 
+<dom-module id="cr-hidden-style" assetpath="chrome://resources/">
+    <template>
+      <style>
+        /* Included here so we don't have to include "iron-positioning" in every
+         * stylesheet. See crbug.com/498405. */
+        [hidden],
+        :host([hidden]) {
+          display: none !important;
+        }
+      </style>
+    </template>
+  </dom-module>
+  
+
+</body>
 </html>
+<script src="index.js"></script>
