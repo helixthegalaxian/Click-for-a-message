@@ -1,2 +1,4 @@
-var snake;
-CDATASection
+console.warn(hello)
+alert(hi);
+
+AbortController
